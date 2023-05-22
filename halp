@@ -1,0 +1,1 @@
+You can turn on verbose debug logging using by setting PYENV_DEBUG=1, e.g. env PYENV_DEBUG=1 pyenv install -v 3.6.4

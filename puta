@@ -1,0 +1,22 @@
+import requests3
+
+url="https://api.telegram.org/bot6089313919:AAEbUvfXa9nbNvQS1Puv1EKn1Td1NhhnHDQ/sendMessage"
+#url = "https://api.telegram.org/bot6089313919:AAEbUvfXa9nbNvQS1Puv1EKn1Td1NhhnHDQ/getMe"
+
+payload = {
+    "text": "Required",
+    "parse_mode": "Markdown",
+    "disable_web_page_preview": False,
+    "disable_notification": False,
+    "reply_to_message_id": None
+}
+headers = {
+    "accept": "application/json",
+    "User-Agent": "Telegram Bot SDK - (https://github.com/irazasyed/telegram-bot-sdk)",
+    "content-type": "application/json"
+}
+
+#response = requests.post(url, json=payload, headers=headers)
+response=requests.post(url)
+
+print(response.text)
