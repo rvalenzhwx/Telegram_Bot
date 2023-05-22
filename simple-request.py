@@ -5,10 +5,6 @@ import json
 import os
 from dotenv import load_dotenv
 
-
-
-
-
 url="https://api.telegram.org/bot6089313919:AAFSDSBPeLN_Q85EyV5KVyIPEYQBzUvRwAI/sendMessage"
 #url = "https://api.telegram.org/bot6089313919:AAEbUvfXa9nbNvQS1Puv1EKn1Td1NhhnHDQ/getMe"
 
